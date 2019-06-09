@@ -7,6 +7,7 @@ Contacts can be sorted and searched using different fields. Add, remove, edit an
 **Affiliate** has fields first and last name, cell number, and email.
 
 Program can read in a list of contacts from a text file or manually from user input. Contacts can be sorted by either one of these six fields: first name, last name, company name, state, city, and zip. To search for a contact, user has the option to either perform the search on a specific contact field eg. search for contact with first name John or perform a search across all fields. Searching by a field results in the first encounter of target contact whereas searching across all fields results in all the matching hits of the searched phrase. In the case of the latter the user has the option to refine the search i.e search within the list of matching results.
+The current updated list of contacts or a list of searched results can be printed to a text file. User must provided the file name with .txt eg. out.txt
 
 ``std::sort`` is used for sorting with overloaded ``>`` and ``<`` operators. Complexity ``O(N log(N))``
 

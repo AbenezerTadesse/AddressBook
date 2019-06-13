@@ -5,10 +5,7 @@
 /*
 
 Abenezer Tadesse
-CSCI 2421
-Final Project
 Nov 30, 2016
-ID: 106102578
 
 Address Book Program
 Meets all requirement.
